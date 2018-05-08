@@ -15,7 +15,7 @@ public interface BaseTableAdapter {
     //获取列数
     public int getColmunCount();
 
-    //    获取item的View
+    //获取item的View
     public View getView(int row, int comun, View convertView, ViewGroup parent);
 
     //获取宽度

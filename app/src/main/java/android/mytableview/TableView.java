@@ -10,9 +10,7 @@ import android.view.ViewGroup;
  * Created time 2018/5/7.
  */
 public class TableView extends ViewGroup {
-    public TableView(Context context) {
-        super(context);
-    }
+
 
     public TableView(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -22,12 +20,14 @@ public class TableView extends ViewGroup {
         super(context, attrs, defStyleAttr);
     }
 
-    public TableView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-        super(context, attrs, defStyleAttr, defStyleRes);
-    }
+
 
     @Override
     protected void onLayout(boolean b, int i, int i1, int i2, int i3) {
+
+    }
+
+    public void setAdapter(BaseTableAdapter baseTableAdapter){
 
     }
 }
